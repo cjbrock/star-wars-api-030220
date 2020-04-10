@@ -41,6 +41,14 @@ class CLI
   end
 
   def get_character_details(char)
+    puts ""
+    puts "_______________#{char.name}_______________"
+    puts "Height:  #{char.height}"
+    puts "Mass: #{char.mass}"
+    puts "Skin Color: #{char.skin_color}"
+    puts "Eye Color: #{char.eye_color}"
+    puts "Homeworld: #{char.homeworld}"
+    puts "For more information see: #{char.url}"
 
   end
 
